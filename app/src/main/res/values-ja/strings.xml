@@ -11,7 +11,7 @@
     <string name="resize">サイズ変更</string>
     <string name="edit_name">名前を編集</string>
     <string name="ungroup">グループ解除</string>
-    <string name="edge_panel">エッジパネル</string>
+    <string name="edge_panel">サイドパネル</string>
     <string name="add_page">ページを追加</string>
     <string name="wallpaper">壁紙</string>
     <string name="widgets">ウィジェット</string>
@@ -39,6 +39,8 @@
     <string name="backup_warning_title">ウィジェットはバックアップされません</string>
     <string name="backup_warning_text">バックアップには、ホーム画面、ドック、フォルダ、アプリの画面上の配置、および設定が保存されます。ウィジェットはこのインストールに紐づいているため、7UIを再インストールした後は、再度追加する必要があります。</string>
     <string name="ok">OK</string>
+    <string name="oss_licenses">オープンソースライセンス</string>
+    <string name="close">閉じる</string>
     <string name="about">7UIについて</string>
     <string name="version">バージョン %1$s</string>
 </resources>

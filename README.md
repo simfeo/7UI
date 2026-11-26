@@ -26,3 +26,7 @@ Install the APK, then pick 7UI in Settings > Apps > Default apps > Home app.
 ## License
 
 PolyForm Noncommercial 1.0.0, see [LICENSE.md](LICENSE.md). Free for personal and other noncommercial use; commercial use needs separate permission.
+
+## Privacy
+
+7UI collects no data and has no internet access. See [PRIVACY.md](PRIVACY.md).

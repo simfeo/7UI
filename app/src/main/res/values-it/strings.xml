@@ -39,6 +39,8 @@
     <string name="backup_warning_title">I widget non vengono inclusi nel backup</string>
     <string name="backup_warning_text">Il backup conserva le tue pagine Home, il dock, le cartelle, l\'ordine delle schermate delle app e le impostazioni. I widget sono associati a questa installazione, quindi dopo aver reinstallato 7UI dovrai aggiungerli nuovamente.</string>
     <string name="ok">OK</string>
+    <string name="oss_licenses">Licenze open source</string>
+    <string name="close">Chiudi</string>
     <string name="about">Informazioni su 7UI</string>
     <string name="version">Versione %1$s</string>
 </resources>

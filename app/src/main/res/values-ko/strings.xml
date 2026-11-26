@@ -11,7 +11,7 @@
     <string name="resize">크기 조정</string>
     <string name="edit_name">이름 편집</string>
     <string name="ungroup">그룹 해제</string>
-    <string name="edge_panel">가장자리 패널</string>
+    <string name="edge_panel">사이드 패널</string>
     <string name="add_page">페이지 추가</string>
     <string name="wallpaper">배경화면</string>
     <string name="widgets">위젯</string>
@@ -39,6 +39,8 @@
     <string name="backup_warning_title">위젯은 백업되지 않습니다</string>
     <string name="backup_warning_text">백업에는 홈 화면, 도크, 폴더, 앱 화면의 순서 및 설정이 저장됩니다. 위젯은 현재 설치본에 연동되어 있으므로, 7UI를 재설치한 후에는 위젯을 다시 추가해야 합니다.</string>
     <string name="ok">확인</string>
+    <string name="oss_licenses">오픈소스 라이선스</string>
+    <string name="close">닫기</string>
     <string name="about">7UI 소개</string>
     <string name="version">버전 %1$s</string>
 </resources>

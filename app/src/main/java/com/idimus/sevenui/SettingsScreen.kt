@@ -22,6 +22,7 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -45,6 +46,8 @@ private val subText = Color(0xFF9A9A9A)
 fun SettingsScreen(state: LauncherState) {
     val s = state.settings
     var backupWarning by remember { mutableStateOf(false) }
+    var licensesOpen by remember { mutableStateOf(false) }
+    if (licensesOpen) LicensesDialog { licensesOpen = false }
     if (backupWarning) {
         AlertDialog(
             onDismissRequest = { backupWarning = false },
@@ -146,6 +149,10 @@ fun SettingsScreen(state: LauncherState) {
             }
         }
         Group {
+            Column(Modifier.fillMaxWidth().clickable { licensesOpen = true }.padding(horizontal = 20.dp, vertical = 16.dp)) {
+                Text(stringResource(R.string.oss_licenses), color = Color.White, fontSize = 17.sp)
+            }
+            Divider()
             Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 16.dp)) {
                 Text(stringResource(R.string.about), color = Color.White, fontSize = 17.sp)
                 Text(stringResource(R.string.version, "1.1.0"), color = subText, fontSize = 14.sp)
@@ -191,4 +198,25 @@ private fun SwitchRow(title: String, summary: String?, checked: Boolean, onChang
             colors = SwitchDefaults.colors(checkedTrackColor = accent, checkedThumbColor = Color.White),
         )
     }
+}
+
+/** Credits required by the Apache 2.0 libraries 7UI ships with. */
+@Composable
+private fun LicensesDialog(onClose: () -> Unit) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val text = remember {
+        context.resources.openRawResource(R.raw.third_party_licenses).bufferedReader().use { it.readText() }
+    }
+    AlertDialog(
+        onDismissRequest = onClose,
+        title = { Text(stringResource(R.string.oss_licenses)) },
+        text = {
+            Text(
+                text,
+                fontSize = 12.sp,
+                modifier = Modifier.heightIn(max = 480.dp).verticalScroll(androidx.compose.foundation.rememberScrollState()),
+            )
+        },
+        confirmButton = { TextButton(onClick = onClose) { Text(stringResource(R.string.close)) } },
+    )
 }

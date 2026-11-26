@@ -39,6 +39,8 @@
     <string name="backup_warning_title">Віджети не потрапляють у резервну копію</string>
     <string name="backup_warning_text">Резервна копія зберігає сторінки головного екрана, док, папки, порядок на екрані додатків і налаштування. Віджети прив’язані до цієї інсталяції, тому після перевстановлення 7UI їх доведеться додати заново.</string>
     <string name="ok">Гаразд</string>
+    <string name="oss_licenses">Ліцензії з відкритим кодом</string>
+    <string name="close">Закрити</string>
     <string name="about">Про 7UI</string>
     <string name="version">Версія %1$s</string>
 </resources>

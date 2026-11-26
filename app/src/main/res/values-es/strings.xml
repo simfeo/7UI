@@ -39,6 +39,8 @@
     <string name="backup_warning_title">No se realiza una copia de seguridad de los widgets</string>
     <string name="backup_warning_text">La copia de seguridad conserva tus páginas de inicio, el dock, las carpetas, el orden de la pantalla de aplicaciones y los ajustes. Los widgets están vinculados a esta instalación, por lo que, tras reinstalar 7UI, tendrás que volver a añadirlos.</string>
     <string name="ok">Aceptar</string>
+    <string name="oss_licenses">Licencias de código abierto</string>
+    <string name="close">Cerrar</string>
     <string name="about">Acerca de 7UI</string>
     <string name="version">Versión %1$s</string>
 </resources>

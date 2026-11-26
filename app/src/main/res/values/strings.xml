@@ -13,7 +13,7 @@
     <string name="resize">Resize</string>
     <string name="edit_name">Edit name</string>
     <string name="ungroup">Ungroup</string>
-    <string name="edge_panel">Edge panel</string>
+    <string name="edge_panel">Side panel</string>
     <string name="add_page">Add page</string>
     <string name="wallpaper">Wallpaper</string>
     <string name="widgets">Widgets</string>
@@ -43,6 +43,8 @@
     <string name="backup_warning_title">Widgets are not backed up</string>
     <string name="backup_warning_text">The backup keeps your Home pages, dock, folders, Apps screen order and settings. Widgets are tied to this install, so after reinstalling 7UI you will need to add them again.</string>
     <string name="ok">OK</string>
+    <string name="oss_licenses">Open-source licenses</string>
+    <string name="close">Close</string>
     <string name="about">About 7UI</string>
     <string name="version">Version %1$s</string>
 </resources>
