@@ -63,6 +63,7 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.runtime.SideEffect
 import androidx.compose.foundation.border
 import androidx.compose.material.icons.Icons
@@ -292,7 +293,7 @@ fun ItemCell(
         !(state.settings.lockLayout && (slot is Slot.Home || slot is Slot.Dock))
     val view = LocalView.current
 
-    Column(
+    BoxWithConstraints(
         modifier
             .onGloballyPositioned { ref.coords = it }
             .alpha(if (hidden) 0f else 1f)
@@ -307,12 +308,15 @@ fun ItemCell(
                     },
                 )
             },
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        contentAlignment = Alignment.Center,
     ) {
+    // Short screens give short cells: shrink the icon so the label never runs into the next row.
+    val labelSpace = if (showLabel) 24.dp else 0.dp
+    val icon = if (constraints.hasBoundedHeight) minOf(ICON_SIZE, maxHeight - labelSpace - 6.dp).coerceAtLeast(36.dp) else ICON_SIZE
+    Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
         Box(Modifier.scale(scale)) {
-            if (folder != null) FolderIcon(state, folder, ICON_SIZE)
-            else AppIcon(state.icons[key], ICON_SIZE)
+            if (folder != null) FolderIcon(state, folder, icon)
+            else AppIcon(state.icons[key], icon)
         }
         if (showLabel) {
             Text(
@@ -323,6 +327,7 @@ fun ItemCell(
                 modifier = Modifier.padding(top = 4.dp, start = 4.dp, end = 4.dp),
             )
         }
+    }
     }
 }
 

@@ -155,7 +155,7 @@ fun SettingsScreen(state: LauncherState) {
             Divider()
             Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 16.dp)) {
                 Text(stringResource(R.string.about), color = Color.White, fontSize = 17.sp)
-                Text(stringResource(R.string.version, "1.1.0"), color = subText, fontSize = 14.sp)
+                Text(stringResource(R.string.version, "1.1.1"), color = subText, fontSize = 14.sp)
             }
         }
         Spacer(Modifier.height(24.dp))
