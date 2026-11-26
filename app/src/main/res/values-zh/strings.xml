@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="more_options">更多选项</string>
+    <string name="add_to_home">添加到主屏幕</string>
+    <string name="add_to_home_page">添加到主屏幕页面</string>
+    <string name="remove">移除</string>
+    <string name="uninstall">卸载</string>
+    <string name="app_info">应用信息</string>
+    <string name="resize">调整大小</string>
+    <string name="edit_name">编辑名称</string>
+    <string name="ungroup">取消分组</string>
+    <string name="edge_panel">边缘面板</string>
+    <string name="add_page">添加页面</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="widgets">小工具</string>
+    <string name="edge_panel_empty">添加您经常使用的应用</string>
+    <string name="backup_saved">备份已保存</string>
+    <string name="backup_failed">备份失败</string>
+    <string name="restored">已恢复</string>
+    <string name="not_a_backup">不是 7UI 备份</string>
+    <string name="settings_title">主屏幕</string>
+    <string name="set_default_home">设为默认主屏幕应用</string>
+    <string name="not_default_home">7UI 目前还不是您的默认主屏幕</string>
+    <string name="apps_screen_grid">应用屏幕网格</string>
+    <string name="loop_pages">循环页面</string>
+    <string name="loop_pages_summary">滑过最后一个主屏幕页面即可回到第一页</string>
+    <string name="edge_panel_summary">从屏幕边缘的拉手处向内滑动，即可打开您最喜爱的应用</string>
+    <string name="edge_panel_left">把手位于左侧</string>
+    <string name="home_search_bar">主屏幕上的搜索栏</string>
+    <string name="swipe_down_notifications">向下滑动以打开通知面板</string>
+    <string name="lock_layout">锁定主屏幕布局</string>
+    <string name="lock_layout_summary">防止主屏幕上的项目被移动或删除</string>
+    <string name="backup">备份布局和设置</string>
+    <string name="backup_summary">保存到文件中，例如在重新安装 7UI 之前</string>
+    <string name="restore">从备份中恢复</string>
+    <string name="restore_summary">之前安装中的小工具需要重新添加</string>
+    <string name="backup_warning_title">小工具不会被备份</string>
+    <string name="backup_warning_text">备份会保留您的主屏幕、Dock、文件夹、应用程序屏幕的排列顺序以及设置。小工具与当前安装相关联，因此重新安装 7UI 后，您需要重新添加它们。</string>
+    <string name="ok">确定</string>
+    <string name="about">关于 7UI</string>
+    <string name="version">版本 %1$s</string>
+</resources>

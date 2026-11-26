@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Rechercher</string>
+    <string name="settings">Paramètres</string>
+    <string name="more_options">Plus d\'options</string>
+    <string name="add_to_home">Ajouter à l\'écran d\'accueil</string>
+    <string name="add_to_home_page">Ajouter à la page d\'accueil</string>
+    <string name="remove">Supprimer</string>
+    <string name="uninstall">Désinstaller</string>
+    <string name="app_info">Informations sur l\'application</string>
+    <string name="resize">Redimensionner</string>
+    <string name="edit_name">Modifier le nom</string>
+    <string name="ungroup">Dégrouper</string>
+    <string name="edge_panel">Panneau latéral</string>
+    <string name="add_page">Ajouter une page</string>
+    <string name="wallpaper">Fond d\'écran</string>
+    <string name="widgets">Widgets</string>
+    <string name="edge_panel_empty">Ajoutez les applications que vous utilisez souvent</string>
+    <string name="backup_saved">Sauvegarde enregistrée</string>
+    <string name="backup_failed">Échec de la sauvegarde</string>
+    <string name="restored">Restauré</string>
+    <string name="not_a_backup">Ce n\'est pas une sauvegarde 7UI</string>
+    <string name="settings_title">Écran d\'accueil</string>
+    <string name="set_default_home">Définir comme application d\'accueil par défaut</string>
+    <string name="not_default_home">7UI n\'est pas encore votre écran d\'accueil par défaut</string>
+    <string name="apps_screen_grid">Grille d\'affichage des applications</string>
+    <string name="loop_pages">Pages en boucle</string>
+    <string name="loop_pages_summary">Faites glisser votre doigt au-delà de la dernière page de l\'écran d\'accueil pour revenir à la première</string>
+    <string name="edge_panel_summary">Faites glisser votre doigt depuis la poignée située au bord de l\'écran pour accéder à vos applications préférées</string>
+    <string name="edge_panel_left">Poignée à gauche</string>
+    <string name="home_search_bar">Barre de recherche sur l\'écran d\'accueil</string>
+    <string name="swipe_down_notifications">Faites glisser votre doigt vers le bas pour afficher le panneau de notifications</string>
+    <string name="lock_layout">Verrouiller la disposition de l\'écran d\'accueil</string>
+    <string name="lock_layout_summary">Empêcher le déplacement ou la suppression des éléments de l\'écran d\'accueil</string>
+    <string name="backup">Sauvegarder la disposition et les paramètres</string>
+    <string name="backup_summary">Enregistrer dans un fichier, par exemple avant de réinstaller 7UI</string>
+    <string name="restore">Restaurer à partir d\'une sauvegarde</string>
+    <string name="restore_summary">Les widgets issus d\'une installation précédente doivent être rajoutés</string>
+    <string name="backup_warning_title">Les widgets ne sont pas sauvegardés</string>
+    <string name="backup_warning_text">La sauvegarde conserve vos pages d\'accueil, votre Dock, vos dossiers, l\'ordre des icônes sur l\'écran des applications ainsi que vos paramètres. Les widgets sont liés à cette installation ; vous devrez donc les ajouter à nouveau après avoir réinstallé 7UI.</string>
+    <string name="ok">OK</string>
+    <string name="about">À propos de 7UI</string>
+    <string name="version">Version %1$s</string>
+</resources>

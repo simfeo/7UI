@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Пошук</string>
+    <string name="settings">Налаштування</string>
+    <string name="more_options">Додаткові параметри</string>
+    <string name="add_to_home">Додати на головний екран</string>
+    <string name="add_to_home_page">Додати на сторінку головного екрана</string>
+    <string name="remove">Прибрати</string>
+    <string name="uninstall">Видалити</string>
+    <string name="app_info">Інформація про додаток</string>
+    <string name="resize">Змінити розмір</string>
+    <string name="edit_name">Редагувати ім’я</string>
+    <string name="ungroup">Розгрупувати</string>
+    <string name="edge_panel">Бічна панель</string>
+    <string name="add_page">Додати сторінку</string>
+    <string name="wallpaper">Шпалери</string>
+    <string name="widgets">Віджети</string>
+    <string name="edge_panel_empty">Додайте додатки, якими часто користуєтеся</string>
+    <string name="backup_saved">Резервну копію збережено</string>
+    <string name="backup_failed">Не вдалося створити резервну копію</string>
+    <string name="restored">Відновлено</string>
+    <string name="not_a_backup">Це не резервна копія 7UI</string>
+    <string name="settings_title">Головний екран</string>
+    <string name="set_default_home">Зробити головним екраном за замовчуванням</string>
+    <string name="not_default_home">7UI поки що не є вашим головним екраном за замовчуванням</string>
+    <string name="apps_screen_grid">Сітка екрану додатків</string>
+    <string name="loop_pages">Циклічні сторінки</string>
+    <string name="loop_pages_summary">Гортайте далі за останню сторінку головного екрана, щоб повернутися до першої</string>
+    <string name="edge_panel_summary">Проведіть від ручки на краю екрана, щоб відкрити улюблені додатки</string>
+    <string name="edge_panel_left">Ручка з лівого боку</string>
+    <string name="home_search_bar">Смуга пошуку на головному екрані</string>
+    <string name="swipe_down_notifications">Проведіть пальцем вниз, щоб відкрити панель сповіщень</string>
+    <string name="lock_layout">Зафіксувати макет головного екрана</string>
+    <string name="lock_layout_summary">Заборонити переміщення або видалення елементів на головному екрані</string>
+    <string name="backup">Створити резервну копію макета та налаштувань</string>
+    <string name="backup_summary">Зберегти у файл, наприклад перед перевстановленням 7UI</string>
+    <string name="restore">Відновити з резервної копії</string>
+    <string name="restore_summary">Віджети з попередньої інсталяції потрібно додати знову</string>
+    <string name="backup_warning_title">Віджети не потрапляють у резервну копію</string>
+    <string name="backup_warning_text">Резервна копія зберігає сторінки головного екрана, док, папки, порядок на екрані додатків і налаштування. Віджети прив’язані до цієї інсталяції, тому після перевстановлення 7UI їх доведеться додати заново.</string>
+    <string name="ok">Гаразд</string>
+    <string name="about">Про 7UI</string>
+    <string name="version">Версія %1$s</string>
+</resources>

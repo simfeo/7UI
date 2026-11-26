@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Suche</string>
+    <string name="settings">Einstellungen</string>
+    <string name="more_options">Weitere Optionen</string>
+    <string name="add_to_home">Zum Startbildschirm hinzufügen</string>
+    <string name="add_to_home_page">Auf Startbildschirmseite hinzufügen</string>
+    <string name="remove">Entfernen</string>
+    <string name="uninstall">Deinstallieren</string>
+    <string name="app_info">App-Info</string>
+    <string name="resize">Größe ändern</string>
+    <string name="edit_name">Name bearbeiten</string>
+    <string name="ungroup">Gruppierung aufheben</string>
+    <string name="edge_panel">Edge-Panel</string>
+    <string name="add_page">Seite hinzufügen</string>
+    <string name="wallpaper">Hintergrundbild</string>
+    <string name="widgets">Widgets</string>
+    <string name="edge_panel_empty">Füge Apps hinzu, die du oft nutzt</string>
+    <string name="backup_saved">Sicherung gespeichert</string>
+    <string name="backup_failed">Sicherung fehlgeschlagen</string>
+    <string name="restored">Wiederhergestellt</string>
+    <string name="not_a_backup">Kein 7UI-Backup</string>
+    <string name="settings_title">Startbildschirm</string>
+    <string name="set_default_home">Als Standard-Startbildschirm festlegen</string>
+    <string name="not_default_home">7UI ist noch nicht dein Standard-Startbildschirm</string>
+    <string name="apps_screen_grid">App-Bildschirmraster</string>
+    <string name="loop_pages">Seiten in Schleife</string>
+    <string name="loop_pages_summary">Wische über die letzte Seite des Startbildschirms hinaus, um zur ersten zurückzukehren.</string>
+    <string name="edge_panel_summary">Wische vom Griff am Bildschirmrand nach innen, um deine Lieblings-Apps aufzurufen</string>
+    <string name="edge_panel_left">Griff auf der linken Seite</string>
+    <string name="home_search_bar">Suchleiste auf dem Startbildschirm</string>
+    <string name="swipe_down_notifications">Nach unten wischen, um das Benachrichtigungsfeld anzuzeigen</string>
+    <string name="lock_layout">Startbildschirm-Layout sperren</string>
+    <string name="lock_layout_summary">Verhindern, dass Elemente auf dem Startbildschirm verschoben oder entfernt werden</string>
+    <string name="backup">Layout und Einstellungen sichern</string>
+    <string name="backup_summary">In einer Datei speichern, beispielsweise vor der Neuinstallation von 7UI</string>
+    <string name="restore">Aus Sicherung wiederherstellen</string>
+    <string name="restore_summary">Widgets aus einer früheren Installation müssen erneut hinzugefügt werden</string>
+    <string name="backup_warning_title">Widgets werden nicht gesichert</string>
+    <string name="backup_warning_text">Das Backup enthält deine Startbildschirmseiten, das Dock, Ordner, die Reihenfolge auf dem App-Bildschirm und die Einstellungen. Widgets sind an diese Installation gebunden, daher musst du sie nach einer Neuinstallation von 7UI erneut hinzufügen.</string>
+    <string name="ok">OK</string>
+    <string name="about">Über 7UI</string>
+    <string name="version">Version %1$s</string>
+</resources>

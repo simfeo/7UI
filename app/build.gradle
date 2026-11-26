@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.compose'
+}
+
+android {
+    namespace 'com.idimus.sevenui'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.idimus.sevenui"
+        minSdk 29
+        targetSdk 36
+        versionCode 4
+        versionName "1.1.0"
+    }
+
+    // Release signing: keystore path and alias come from ~/.gradle/gradle.properties, the
+    // password from the macOS Keychain item "7ui-signing", so neither lands in the repo.
+    // Without them the release build is simply left unsigned.
+    def keystorePath = findProperty('SEVENUI_KEYSTORE')
+    def keyAlias7ui = findProperty('SEVENUI_KEY_ALIAS')
+    def keychainPassword = {
+        try {
+            def p = ['security', 'find-generic-password', '-s', '7ui-signing', '-w'].execute()
+            def out = p.text.trim()
+            p.waitFor() == 0 ? out : null
+        } catch (Exception ignored) { null }
+    }
+    signingConfigs {
+        release {
+            if (keystorePath && keyAlias7ui) {
+                def pw = keychainPassword()
+                if (pw) {
+                    storeFile file(keystorePath)
+                    storePassword pw
+                    keyAlias keyAlias7ui
+                    keyPassword pw
+                }
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (signingConfigs.release.storeFile) signingConfig signingConfigs.release
+        }
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+    }
+}
+
+dependencies {
+    implementation platform('androidx.compose:compose-bom:2025.08.00')
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.foundation:foundation'
+    implementation 'androidx.compose.material3:material3'
+    implementation 'androidx.compose.material:material-icons-core'
+    implementation 'androidx.activity:activity-compose:1.10.1'
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2'
+}

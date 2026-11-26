@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Pesquisar</string>
+    <string name="settings">Definições</string>
+    <string name="more_options">Mais opções</string>
+    <string name="add_to_home">Adicionar à página inicial</string>
+    <string name="add_to_home_page">Adicionar à página inicial</string>
+    <string name="remove">Remover</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="app_info">Informações sobre a aplicação</string>
+    <string name="resize">Redimensionar</string>
+    <string name="edit_name">Editar nome</string>
+    <string name="ungroup">Desagrupar</string>
+    <string name="edge_panel">Painel lateral</string>
+    <string name="add_page">Adicionar página</string>
+    <string name="wallpaper">Papel de parede</string>
+    <string name="widgets">Widgets</string>
+    <string name="edge_panel_empty">Adiciona as aplicações que utilizas com frequência</string>
+    <string name="backup_saved">Cópia de segurança guardada</string>
+    <string name="backup_failed">A cópia de segurança falhou</string>
+    <string name="restored">Restaurado</string>
+    <string name="not_a_backup">Não é uma cópia de segurança do 7UI</string>
+    <string name="settings_title">Ecrã inicial</string>
+    <string name="set_default_home">Definir como aplicação inicial predefinida</string>
+    <string name="not_default_home">O 7UI ainda não é o teu ecrã inicial predefinido</string>
+    <string name="apps_screen_grid">Grelha de ecrã das aplicações</string>
+    <string name="loop_pages">Páginas em loop</string>
+    <string name="loop_pages_summary">Desliza para além da última página do ecrã inicial para voltar à primeira</string>
+    <string name="edge_panel_summary">Desliza a partir da barra na borda do ecrã para aceder às tuas aplicações favoritas</string>
+    <string name="edge_panel_left">Barra do lado esquerdo</string>
+    <string name="home_search_bar">Barra de pesquisa no ecrã inicial</string>
+    <string name="swipe_down_notifications">Desliza para baixo para abrir o painel de notificações</string>
+    <string name="lock_layout">Bloquear o layout do ecrã inicial</string>
+    <string name="lock_layout_summary">Impedir que os elementos do ecrã inicial sejam movidos ou removidos</string>
+    <string name="backup">Fazer uma cópia de segurança do layout e das definições</string>
+    <string name="backup_summary">Guardar num ficheiro, por exemplo, antes de reinstalar o 7UI</string>
+    <string name="restore">Restaurar a partir da cópia de segurança</string>
+    <string name="restore_summary">Os widgets de uma instalação anterior têm de ser adicionados novamente</string>
+    <string name="backup_warning_title">Não é feita uma cópia de segurança dos widgets</string>
+    <string name="backup_warning_text">A cópia de segurança guarda as tuas páginas iniciais, o dock, as pastas, a ordem do ecrã de aplicações e as definições. Os widgets estão associados a esta instalação, por isso, depois de reinstalares o 7UI, terás de os adicionar novamente.</string>
+    <string name="ok">OK</string>
+    <string name="about">Sobre o 7UI</string>
+    <string name="version">Versão %1$s</string>
+</resources>

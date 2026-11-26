@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Cerca</string>
+    <string name="settings">Impostazioni</string>
+    <string name="more_options">Altre opzioni</string>
+    <string name="add_to_home">Aggiungi a Home</string>
+    <string name="add_to_home_page">Aggiungi alla pagina Home</string>
+    <string name="remove">Rimuovi</string>
+    <string name="uninstall">Disinstalla</string>
+    <string name="app_info">Informazioni sull\'app</string>
+    <string name="resize">Ridimensiona</string>
+    <string name="edit_name">Modifica nome</string>
+    <string name="ungroup">Separa gruppo</string>
+    <string name="edge_panel">Pannello laterale</string>
+    <string name="add_page">Aggiungi pagina</string>
+    <string name="wallpaper">Sfondo</string>
+    <string name="widgets">Widget</string>
+    <string name="edge_panel_empty">Aggiungi le app che usi spesso</string>
+    <string name="backup_saved">Backup salvato</string>
+    <string name="backup_failed">Il backup non è andato a buon fine</string>
+    <string name="restored">Ripristinato</string>
+    <string name="not_a_backup">Non è un backup 7UI</string>
+    <string name="settings_title">Schermata Home</string>
+    <string name="set_default_home">Imposta come app Home predefinita</string>
+    <string name="not_default_home">7UI non è ancora la tua schermata Home predefinita</string>
+    <string name="apps_screen_grid">Griglia della schermata delle app</string>
+    <string name="loop_pages">Pagine in loop</string>
+    <string name="loop_pages_summary">Scorri oltre l\'ultima pagina della schermata Home per tornare alla prima</string>
+    <string name="edge_panel_summary">Scorri dal bordo dello schermo, partendo dalla maniglia, per accedere alle tue app preferite</string>
+    <string name="edge_panel_left">Maniglia sul lato sinistro</string>
+    <string name="home_search_bar">Barra di ricerca nella schermata Home</string>
+    <string name="swipe_down_notifications">Scorri verso il basso per visualizzare il pannello delle notifiche</string>
+    <string name="lock_layout">Blocca il layout della schermata Home</string>
+    <string name="lock_layout_summary">Impedisci che gli elementi presenti nella schermata Home vengano spostati o rimossi</string>
+    <string name="backup">Esegui il backup del layout e delle impostazioni</string>
+    <string name="backup_summary">Salva in un file, ad esempio prima di reinstallare 7UI</string>
+    <string name="restore">Ripristina dal backup</string>
+    <string name="restore_summary">È necessario aggiungere nuovamente i widget di un\'installazione precedente</string>
+    <string name="backup_warning_title">I widget non vengono inclusi nel backup</string>
+    <string name="backup_warning_text">Il backup conserva le tue pagine Home, il dock, le cartelle, l\'ordine delle schermate delle app e le impostazioni. I widget sono associati a questa installazione, quindi dopo aver reinstallato 7UI dovrai aggiungerli nuovamente.</string>
+    <string name="ok">OK</string>
+    <string name="about">Informazioni su 7UI</string>
+    <string name="version">Versione %1$s</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">検索</string>
+    <string name="settings">設定</string>
+    <string name="more_options">その他のオプション</string>
+    <string name="add_to_home">ホームに追加</string>
+    <string name="add_to_home_page">ホーム画面のページに追加</string>
+    <string name="remove">削除</string>
+    <string name="uninstall">アンインストール</string>
+    <string name="app_info">アプリ情報</string>
+    <string name="resize">サイズ変更</string>
+    <string name="edit_name">名前を編集</string>
+    <string name="ungroup">グループ解除</string>
+    <string name="edge_panel">エッジパネル</string>
+    <string name="add_page">ページを追加</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="widgets">ウィジェット</string>
+    <string name="edge_panel_empty">よく使うアプリを追加する</string>
+    <string name="backup_saved">バックアップが保存されました</string>
+    <string name="backup_failed">バックアップに失敗しました</string>
+    <string name="restored">復元済み</string>
+    <string name="not_a_backup">7UIのバックアップではありません</string>
+    <string name="settings_title">ホーム画面</string>
+    <string name="set_default_home">デフォルトのホームアプリに設定</string>
+    <string name="not_default_home">7UIはまだデフォルトのホーム画面にはなっていません</string>
+    <string name="apps_screen_grid">アプリ画面のグリッド</string>
+    <string name="loop_pages">ループページ</string>
+    <string name="loop_pages_summary">最後のホーム画面ページからさらにスワイプすると最初のページに戻ります</string>
+    <string name="edge_panel_summary">画面の端にあるハンドルからスワイプして、お気に入りのアプリを表示しましょう</string>
+    <string name="edge_panel_left">ハンドルを左側に表示</string>
+    <string name="home_search_bar">ホーム画面の検索バー</string>
+    <string name="swipe_down_notifications">下にスワイプして通知パネルを表示する</string>
+    <string name="lock_layout">ホーム画面のレイアウトを固定する</string>
+    <string name="lock_layout_summary">ホーム画面上の項目が移動されたり削除されたりしないようにする</string>
+    <string name="backup">レイアウトと設定のバックアップ</string>
+    <string name="backup_summary">ファイルに保存します（例：7UIを再インストールする前など）</string>
+    <string name="restore">バックアップから復元する</string>
+    <string name="restore_summary">以前のインストールで追加したウィジェットを再度追加する必要があります</string>
+    <string name="backup_warning_title">ウィジェットはバックアップされません</string>
+    <string name="backup_warning_text">バックアップには、ホーム画面、ドック、フォルダ、アプリの画面上の配置、および設定が保存されます。ウィジェットはこのインストールに紐づいているため、7UIを再インストールした後は、再度追加する必要があります。</string>
+    <string name="ok">OK</string>
+    <string name="about">7UIについて</string>
+    <string name="version">バージョン %1$s</string>
+</resources>
