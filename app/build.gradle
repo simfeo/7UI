@@ -12,18 +12,18 @@ android {
         applicationId "com.idimus.sevenui"
         minSdk 29
         targetSdk 36
-        versionCode 5
+        versionCode 6
         versionName "1.1.1"
     }
 
     // Release signing: keystore path and alias come from ~/.gradle/gradle.properties, the
-    // password from the macOS Keychain item "7ui-signing", so neither lands in the repo.
+    // password from the macOS Keychain item "7ui-release-key", so neither lands in the repo.
     // Without them the release build is simply left unsigned.
     def keystorePath = findProperty('SEVENUI_KEYSTORE')
     def keyAlias7ui = findProperty('SEVENUI_KEY_ALIAS')
     def keychainPassword = {
         try {
-            def p = ['security', 'find-generic-password', '-s', '7ui-signing', '-w'].execute()
+            def p = ['security', 'find-generic-password', '-s', '7ui-release-key', '-w'].execute()
             def out = p.text.trim()
             p.waitFor() == 0 ? out : null
         } catch (Exception ignored) { null }
@@ -44,7 +44,9 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
             if (signingConfigs.release.storeFile) signingConfig signingConfigs.release
         }
     }

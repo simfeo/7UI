@@ -13,7 +13,7 @@ HOME SCREEN
 • As many pages as you like, with a dock and an optional search bar
 • Folders with five colors
 • Widgets you can move and resize
-• Edit mode (pinch or long-press empty space): add, delete and reorder pages, and choose your default page
+• Edit mode (pinch or long-press empty space): add and delete pages, and choose your default page
 • Optional page looping
 
 APPS SCREEN
